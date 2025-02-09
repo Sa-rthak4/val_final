@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #f2dd6e; */
+    /* background-image: url('https://static.vecteezy.com/system/resources/thumbnails/016/143/245/original/falling-hearts-background-love-confetti-element-pink-hearts-particles-decorated-with-isolated-background-free-video.jpg'); */
+   background-image:url('fireworks-deepavali.gif');
+    background-size: 85%;
+    font-family: "Candara", monospace;
+}
+
+.container {
+    text-align: center;
+    opacity: 0; /* Ensure it starts invisible */
+    animation: fadeIn 2s ease-in forwards; 
+}
+
+.header_text {
+    font-size: 3em;
+    color: rgba(228, 3, 3, 0.941);
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+    opacity: 0; /* Ensure it starts invisible */
+    animation: fadeIn 2s ease-in forwards; 
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
